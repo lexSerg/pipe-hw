@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "pipe-hw"
+  "defaultProject": "pipe-hw",
+  "cli": {
+    "analytics": false
+  }
 }

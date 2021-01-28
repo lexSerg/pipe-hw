@@ -1,0 +1,5 @@
+<p>users works!</p>
+<div class="users-wrap" *ngIf='users$ | async as users'>
+    <div [outerHTML] = 'users | user'>
+    </div>
+</div>
